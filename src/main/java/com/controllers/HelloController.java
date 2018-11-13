@@ -17,7 +17,7 @@ public class HelloController {
     @RequestParam(value = "name", required = false) String name
   ) {
     if (StringUtils.isEmpty(name)) {
-      name = "Java Eleven ";
+      name = "Java 11 ";
     }
     var prefix = "Hello, ";
     var postfix = " !";
